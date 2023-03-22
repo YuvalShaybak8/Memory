@@ -1,0 +1,39 @@
+.mb-3{
+width: 52%;
+}
+
+body{
+ background-color:rgb(243, 230, 197) !important;
+}
+
+.text-center{
+    padding-bottom: 9%;
+    font-family: 'Amatic SC', cursive;
+}
+
+.form-box{
+    width: 40%;
+    overflow: hidden;
+}
+
+
+.text-color{
+    color: black;
+    text-transform: bold;
+}
+
+.start-btn{
+    text-align: center;
+}
+#form-box{
+    position:relative;
+    border: 5pt;
+    border-color: black;
+    font-family: 'Amatic SC', cursive;
+}
+.input{
+    width: 100% !important;
+}
+#start-button{
+    position: relative;
+}

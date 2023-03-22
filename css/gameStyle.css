@@ -1,0 +1,75 @@
+
+#headline{
+    text-align: center;
+}
+
+.card{
+    width:200px !important;
+    border-radius: 5px;
+    float:left;
+    margin: 5px;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 140%;
+}
+.finish-class{
+    text-align: center !important;
+
+}
+.visibility{
+    visibility: hidden;
+}
+#restart-button{
+    text-align: center;
+    background-color: #6589F9;
+    border-radius: 5px;
+    border-color: #6589F9;
+    color: white;
+    
+}
+.card-img-top{
+    cursor: pointer; 
+}
+
+.card-img-top:active{
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform: rotateY(180deg); 
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 300%;
+    padding: 20px;
+}
+
+header::before,
+footer::after {
+    display: block;
+    content: '';
+    width: 100%;
+    background: #fbed60;
+    height: 20px;
+}
+
+header {
+    margin: auto;
+    background: #ffff92;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.revealed{
+    transition: transform 1s;
+    transform: rotateY(-180deg);
+}
+
+.play-card{
+    transition: transform 1s;
+    transform: rotateY(0deg);
+}
+
